@@ -1,0 +1,42 @@
+Uncaught ReferenceError: "Uncaught ReferenceError" means you're trying to use a variable or function that hasn't been declared.
+
+
+Uncaught TypeError: Trying to use a variable or value in a way that is not allowed for its type.
+
+
+Uncaught SyntaxError: Writing code with a structure that violates the language's grammar rules.
+
+
+Uncaught RangeError: Using a value that is outside the allowable range or limit.
+
+---------------------------------------------------------------------------------------------------------------------------------
+
+SyntaxError:
+--------------
+Description: Code is written incorrectly, violating the language's grammar rules.
+Example: Missing a closing parenthesis or using a reserved keyword incorrectly.
+
+ReferenceError:
+----------------
+Description: Trying to use a variable or function that has not been declared.
+Example: Using a variable before assigning a value to it.
+
+TypeError:
+-----------
+Description: Inappropriate use of a variable or value type.
+Example: Trying to call a method on an undefined variable or treating a non-function as a function.
+
+RangeError:
+------------
+Description: Using a value outside the allowable range.
+Example: Creating an array with a negative length.
+
+URIError:
+------------
+Description: Errors related to URI (Uniform Resource Identifier) handling functions.
+Example: Using incorrect URI encoding or decoding.
+
+NetworkError:
+--------------
+Description: Errors related to network operations, usually seen in asynchronous code.
+Example: Issues with fetching resources from a server.
